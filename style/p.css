@@ -101,11 +101,53 @@ main{
 .about-info{
     text-align: center;
 }
-
+/* skills style section */
 #what-i-description{
     padding: 30px 150px;
 }
 .skill-container{
     display: flex;
     justify-content: space-around;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(243, 4, 4, 0.06);
+}
+.section-description, .worker-university{
+    color: #757575;
+}
+
+/* resume section style */
+.resume-title{
+    text-align: center;
+}
+
+.worker-title, .coloumn-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.worker-university{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.worker-education{
+   
+}
+
+.dwonload-cv{
+    text-align: center;
+    margin-top: 50px;
 }
