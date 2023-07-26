@@ -15,11 +15,12 @@ body {
   font-weight: 700;
   padding: 18px 35px;
 }
-
+/* ---------------------------------------- */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 150px;
 }
 nav > ul {
   display: flex;
@@ -36,4 +37,24 @@ nav a {
 .ownername {
   font-size: 45px;
   font-weight: 800;
+}
+
+/* Header style */
+.header{
+    background-color: #FFF8F3;;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profile-picture{
+    width: 500px;
+    height: 600px;
+}
+
+.banner .banner-content{
+    
 }
